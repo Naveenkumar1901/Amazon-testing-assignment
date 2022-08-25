@@ -141,7 +141,7 @@
     			   
     			   Thread.sleep(3000);
     			   
-    			   WebElement home = driver.findElement(By.id("nav-logo-sprites"));     //home button
+    			   WebElement home = driver.findElement(By.id("nav-logo-sprites")); 
     			   home.click();
     				  
     			   driver.navigate().refresh(); 
